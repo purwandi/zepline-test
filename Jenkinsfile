@@ -1,7 +1,7 @@
 @Library('zepline-ci') _
 
-node {
-  checkout scm
+pipeline {
+  agent none
 
   zepline(".zepline.yaml")  
 }
