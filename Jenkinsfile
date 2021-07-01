@@ -1,2 +1,5 @@
 @Library('zepline-ci') _
-zepline(".zepline.yaml")
+
+node {
+  zepline(".zepline.yaml")
+}
