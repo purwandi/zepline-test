@@ -1,4 +1,4 @@
-.helm: &helm
+.helm:
   script:
     - echo "Runing as helm"
     - sleep 30
